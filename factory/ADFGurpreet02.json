@@ -1,0 +1,9 @@
+{
+	"name": "ADFGurpreet02",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5766abcd-b506-4dc3-ab02-65b1501fae10",
+		"tenantId": "49fbe201-ee63-4985-8929-bee62c385c1f"
+	}
+}
