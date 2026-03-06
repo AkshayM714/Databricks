@@ -27,7 +27,7 @@
 			"value": "https://stgen2eastusdev001.dfs.core.windows.net/"
 		},
 		"HttpServer1_properties_typeProperties_url": {
-			"value": "https://github.com/AkshayM714/Databricks.git/Databricks/main/PRODUCT.csv"
+			"value": "https://raw.githubusercontent.com/AkshayM714/Databricks/main/PRODUCT.csv"
 		},
 		"HttpServer1_properties_typeProperties_userName": {
 			"value": "AkshayM714"

@@ -37,7 +37,7 @@
 		},
 		"HttpServer1_properties_typeProperties_url": {
 			"type": "string",
-			"defaultValue": "https://github.com/AkshayM714/Databricks.git/Databricks/main/PRODUCT.csv"
+			"defaultValue": "https://raw.githubusercontent.com/AkshayM714/Databricks/main/PRODUCT.csv"
 		},
 		"HttpServer1_properties_typeProperties_userName": {
 			"type": "string",
