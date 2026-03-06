@@ -10,6 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
+				"fileName": "Productparquet1",
 				"fileSystem": "testdata"
 			},
 			"compressionCodec": "snappy"
