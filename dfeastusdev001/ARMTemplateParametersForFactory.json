@@ -11,11 +11,26 @@
 		"AzureDataLakeStorage1_accountKey": {
 			"value": ""
 		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"HttpServer1_password": {
+			"value": ""
+		},
 		"ls_gen2_accountKey": {
 			"value": ""
 		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"value": "https://gurpreet02.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://stgen2eastusdev001.dfs.core.windows.net/"
+		},
+		"HttpServer1_properties_typeProperties_url": {
+			"value": "https://github.com/AkshayM714/Databricks.git/Databricks/main/PRODUCT.csv"
+		},
+		"HttpServer1_properties_typeProperties_userName": {
+			"value": "AkshayM714"
 		},
 		"ls_gen2_properties_typeProperties_url": {
 			"value": "https://stgen2eastusdev001.dfs.core.windows.net/"
