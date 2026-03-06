@@ -1,10 +1,10 @@
 {
-	"name": "pipeline2",
+	"name": "copygitdata",
 	"properties": {
 		"activities": [
 			{
-				"name": "Notebook1",
-				"type": "DatabricksNotebook",
+				"name": "Copy data1",
+				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
 					"timeout": "0.12:00:00",
@@ -13,7 +13,49 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"source": {
+						"type": "DelimitedTextSource",
+						"storeSettings": {
+							"type": "HttpReadSettings",
+							"requestMethod": "GET"
+						},
+						"formatSettings": {
+							"type": "DelimitedTextReadSettings"
+						}
+					},
+					"sink": {
+						"type": "ParquetSink",
+						"storeSettings": {
+							"type": "AzureBlobFSWriteSettings"
+						},
+						"formatSettings": {
+							"type": "ParquetWriteSettings"
+						}
+					},
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"typeConversion": true,
+						"typeConversionSettings": {
+							"allowDataTruncation": true,
+							"treatBooleanAsNumber": false
+						}
+					}
+				},
+				"inputs": [
+					{
+						"referenceName": "copygitdata",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "Parquet1",
+						"type": "DatasetReference"
+					}
+				]
 			}
 		],
 		"annotations": []
