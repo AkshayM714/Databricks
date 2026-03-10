@@ -17,6 +17,12 @@
 		"HttpServer1_password": {
 			"value": ""
 		},
+		"HttpServer2_password": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
 		"ls_gen2_accountKey": {
 			"value": ""
 		},
@@ -31,6 +37,21 @@
 		},
 		"HttpServer1_properties_typeProperties_userName": {
 			"value": "AkshayM714"
+		},
+		"HttpServer2_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/AkshayM714/Databricks/main/PRODUCT.csv"
+		},
+		"HttpServer2_properties_typeProperties_userName": {
+			"value": "AkshayM714"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "rgdevsqlserver001.database.windows.net"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "demo"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "hello"
 		},
 		"ls_gen2_properties_typeProperties_url": {
 			"value": "https://stgen2eastusdev001.dfs.core.windows.net/"
